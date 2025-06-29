@@ -5,12 +5,12 @@ import time
 from machine import Pin, PWM, time_pulse_us
 
 # ====== Wi-Fi Credentials ======
-ssid = 'moto g34 5G_2040'
-password = 'krishnaprasath'
+ssid = 'YOUR_WIFI_SSID'
+password = 'YOUR_WIFI_PASSWORD'
 
 # ====== Telegram Bot Details ======
-bot_token = '7557639408:AAGdqzjQSTmfAnoJsjqUo5sCcp6wWkfImls'
-chat_id = '5845616557'
+bot_token = 'YOUR_BOT_TOKEN'
+chat_id = 'YOUR_CHAT_ID'
 message_text = 'Emergency! The button has been pressed.'
 
 # ====== Pin Setup ======
